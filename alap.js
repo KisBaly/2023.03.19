@@ -89,3 +89,17 @@ function vanePorog(){
     }
     return (i<dobasok.length);
 }
+function Pontok(kocka)
+{
+  var hely = document.getElementById("eredmeny");
+  var szam = document.createElement("p");
+  var eredmeny = 0;
+  for(let i = 0; i < dobasok.length;i++)
+  {
+    eredmeny += kocka;
+  }
+  hely.innerHTML= "Eredmény:"+eredmeny;
+  hely.appendChild(szam);
+}
+console.log(dobasok);
+Pontok();
