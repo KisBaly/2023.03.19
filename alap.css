@@ -64,3 +64,9 @@ body
 {
     background-image: url(fejlec.png);
 }
+
+li
+{
+    color: white;
+    font-size: 30px;
+}
